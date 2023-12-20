@@ -1,0 +1,37 @@
+   
+
+ **react --- REACT-dom - web ----REACT- native -- mobile
+
+
+
+React Installation
+npx create-react-app ------name  -- bulkyy so we use vite 
+
+
+
+vite installation
+npm create vite@latest
+project-name
+pakage-name
+framework - React
+variant - js 
+
+cd folder name
+npm install
+npm run dev
+
+package-lock.json  -- stable version ki dependencies lock ho jti h 
+ReactDOM - react creates it's own dom
+React gives you power to create it's own tag 
+
+function --- html ----return that function as tag
+
+
+vite 
+*Always write javascript code in jsx file
+*Always use first letter as capital in function
+*return code in <> </>---this is called as fragment
+*good practice capitalize the first letter of .js or .jsx file
+vite -jsx   react -- both can be used jsx or js
+
+
