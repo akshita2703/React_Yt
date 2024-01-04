@@ -13,6 +13,8 @@ function App() {
     console.log(counter);
     // counter = counter+1;
     setCounter(counter+1)
+    // setCounter(counter+1)  adding multiple times won't change anything 
+    // setCounter(counter+1)
   }
   
   const removeValue = ()=>{
