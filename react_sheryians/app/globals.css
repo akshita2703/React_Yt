@@ -1,0 +1,9 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+a{
+    margin: 5px;
+    flex-direction: row;
+    gap: 5px;
+}
