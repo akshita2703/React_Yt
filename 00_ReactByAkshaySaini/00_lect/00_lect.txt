@@ -1,0 +1,46 @@
+vscode uses emmet - which means it basically generates some code inside vscode for you .
+
+- hello world using html 
+- hello world using js
+
+browser have js engine v8 engine but browser don't know about the react
+
+what is CDN? (HomeWork)
+Content delivery Network . these are website where react libraries is hosted and we are pulling react into our code
+
+CDN LINK 
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+React is written by Facebook developers
+
+console react likhne se milega
+
+React 
+{Children: {…}, Fragment: Symbol(react.fragment), Profiler: Symbol(react.profiler), Component: ƒ, PureComponent: ƒ, …}
+
+
+1) React.development.js -- core of react
+2) React-dom.development.js -- which is useful for DOM ( Document Object Model ) (bridge between react and browser)
+why we have 2 different file for react ? 
+because does not only work on web ,it also works for mobile development
+
+
+React is built to manipulate our DOM using JS. updating DOM tree is costliest thing to do 
+
+-props - are children or attribute which we pass
+
+
+
+
+
+
+
+
+
+
+
+
+HomeWork Question
+
+CDN?
+crossorigin ?
