@@ -1,0 +1,72 @@
+- What is npm?
+    npm doesn't have full form
+    but it work as node package manager 
+    All the package are hosted here
+
+
+package.json is config file for npm -- it keeps the track of what version we are using -- but if any update will there it will not change 
+package-lock.json -- it will keep the exact version of what is installed
+-- exact version  lock.json ----- approx version -- package.json
+
+** Every dependencies which are installed in node_module have its own package.json file
+
+
+-bundler - create the bundle so the code  can be push to production 
+    vite is the bundler , web pack 
+    parcel 
+
+    there are two types of dependencies we can install 
+    1 Dev dependencies - require when we are developing our app
+    2 Norma dependencies - can be use in production also
+
+** 
+"parcel" : "2.8.3" by using caret(^) ---- just for info  tlide(~) 
+
+"parcel" : "^2.8.3"  -- if any update in minor version it'll automatically update it but not for the case of major version change
+tlide(~) --- it will update the major version but that's not the safe to use
+
+
+What is node modules?
+node modules is like the database it contain actul data of these dependencies.
+fetches all the code of all the dependencies. it is very heavy
+
+Transitive dependencies ->  parcel need some dependencies to work and these dependencies also need some other dependencies to work 
+
+
+if i have package.json and package-lock.json , you can re-create your node_module 
+
+
+npx parcel index.html has hosted our app to Server running at http://localhost:1234
+
+if you want to execute our package you'll use npx (executable file).
+build our development and able to host it on localhost
+
+CDN are or prefered way to inject the react in our app
+
+#parcel (Read about parcel )
+- Dev build
+- Local Server
+- HMR = Hot module Replacement 
+- file watching algorithm which is written in C++
+- it gives you Faster Build because of Chaching . 
+- image optimization for you 
+- Minification   
+- Compressing 
+- Bundling
+- consistent Hashing 
+- code spliting
+- Differential Bundling - to support older browser 
+- Tree Shaking - remove unused code
+- Diagonstic 
+- Error Handling
+- HTTPs
+- Lazy module
+- Different build for dev and production
+
+
+
+
+
+
+HOMEWORK 
+what is the major diff between package.json and package-lock.json

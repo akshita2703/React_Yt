@@ -1,0 +1,14 @@
+{
+  "name": "01_lect2",
+  "version": "1.0.0",
+  "description": "this is namaste react ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Akshita",
+  "license": "ISC"
+}
