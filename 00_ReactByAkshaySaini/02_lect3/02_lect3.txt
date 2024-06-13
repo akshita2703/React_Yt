@@ -1,0 +1,6 @@
+creating script 
+
+"start": "parcel index.html", -- for dev   (npm run start or npm start ---- only work for dev not for prod)
+"build": "parcel build index.html" for production (npm run build)
+
+

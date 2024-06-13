@@ -1,0 +1,1 @@
+const heading = React.createElement("hi",{id:"heading"},"Nameste React");

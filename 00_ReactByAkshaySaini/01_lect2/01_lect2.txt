@@ -66,6 +66,37 @@ CDN are or prefered way to inject the react in our app
 
 
 
+Error ? 
+
+npx parcel build index.html -- i want index.html to be my starting point but in package.js 
+"main": "App.js", this is given as entry point , so we need to remove this. 
+
+
+
+Dist -- when we do npx parcel index.html it generate the development page of your project and host it.and when you refresh the file it use 
+the cache to make it faster 
+
+and when you'll run this (npx parcel build index.html) build command it will build it inside Dist 
+
+
+these 3 file are created 
+dist\index.html                460 B    1.11s  1 html
+dist\index.fed37dea.css         88 B     80ms  1 css
+dist\index.8b3229bb.js     138.88 KB    716ms  1 js
+
+  
+browser version - version in which app will definately work (can also give country specific)
+
+https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
+
+
+
+
+
+
+
+
+
 
 
 HOMEWORK 

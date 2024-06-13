@@ -45,5 +45,5 @@ Parcel’s combination of powerful features, ease of use, and performance optimi
 
 For more detailed information, you can refer to Parcel's official documentation and GitHub repository:
 
-Parcel Documentation
+Parcel Documentation  -- https://parceljs.org/
 Parcel GitHub Repository
